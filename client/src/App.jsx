@@ -1,6 +1,6 @@
-import React, { useEffect, useMemo, useState } from 'react'
+import React, { useEffect,  useState } from 'react'
 
-const API_BASE = 'http://localhost:4000/api/v1'
+const API_BASE = 'https://search-engine-backend-ajyn.onrender.com/api/v1'
 
 export default function App() {
   const [q, setQ] = useState('latest iphone')
